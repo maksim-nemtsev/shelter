@@ -1,11 +1,11 @@
 @font-face {
   font-family: Georgia;
-  src: url("../main/../../assets/fonts/9605.ttf");
+  src: url('../main/../../assets/fonts/9605.ttf');
 }
 
 @font-face {
   font-family: Arial;
-  src: url("../main/../../assets/fonts/9041.ttf");
+  src: url('../main/../../assets/fonts/9041.ttf');
 }
 
 /* color constants */
@@ -25,8 +25,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -44,8 +44,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .logo__title {
@@ -72,11 +72,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .list {
@@ -84,8 +84,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -97,14 +97,14 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .list-link {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #cdcdcd;
   font-family: Arial;
   font-size: 15px;
@@ -126,8 +126,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .hero {
@@ -135,7 +135,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   padding-top: 180px;
-  background: url(../../assets/images/noise_transparent@2x.png), radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+  background: url(../../assets/images/noise_transparent@2x.png),
+    radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
 }
 
 .hero__content {
@@ -150,11 +151,11 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-bottom: 85px;
 }
 
@@ -190,9 +191,10 @@ body {
   font-weight: 400;
   letter-spacing: 1.02px;
   line-height: 22.1px;
+  cursor: pointer;
+  outline: none;
 }
 
 .hero-img {
   margin-left: 40px;
 }
-/*# sourceMappingURL=main.css.map */
